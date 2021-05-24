@@ -4,8 +4,59 @@ body{
 }
 
 .principal{
-    margin: 100px auto;
-    width: 600px;
+    margin: 180px auto;
+    width: 700px;
     border-radius: 20px;
-    padding: 20vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    grid-template-areas: "izquierda derecha";
+    box-shadow: 10px 10px 4px #000000a4;
+}
+
+.izquierda{
+    grid-area: izquierda;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    text-align: center;
+    padding: 40px;
+}
+
+.fa-facebook-f{
+    padding: 10px;
+}
+
+.fa-twitter{
+    padding: 10px;
+}
+
+.derecha{
+    grid-area: derecha;
+    border-right: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    text-align: center;
+    color: white;
+    padding: 40px;
+    background-color: #ff445d;
+}
+
+button{
+    border-radius: 20px;
+    padding: 5px;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: #fe4d2b;
+    box-shadow: none;
+    color:white;
+}
+
+input{
+    padding:5px;
+    margin: 5px;
+    border-style: none;
+}
+
+.p{
+    color:grey;
 }
