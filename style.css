@@ -1,0 +1,11 @@
+body{
+    background-color: w3-pale-red;
+    box-sizing: border-box;
+}
+
+.principal{
+    margin: 100px auto;
+    width: 600px;
+    border-radius: 20px;
+    padding: 20vh;
+}
